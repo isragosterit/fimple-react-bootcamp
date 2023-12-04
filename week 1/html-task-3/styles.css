@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+.search-section{
+    background-color: #EEEEEE;
+    text-align: center;
+}
+
+/* Designing sections */
+.info{
+    width: 46%; 
+    background-color: aqua;
+    border: 1px solid #fff;
+    padding: 3px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+a{
+    color: blue;
+    text-decoration: underline;
+}
+
+a:active {
+    background-color: yellow;
+}
+
+.info-section{
+    display: flex;
+    flex-direction: row;
+    margin:3px;
+    text-align: center;
+}
+
+/* Making the second section narrower */
+.second-section {
+    flex: 0 0 20%;
+}
+
+.subscribe {
+    text-align: center;
+    padding: 0px 12px !important;
+}
+
+.subscribe button,
+.subscribe li {
+    display: inline-block;
+    margin: 1px;
+
+ }
